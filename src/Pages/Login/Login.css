@@ -1,0 +1,73 @@
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+
+
+.loginbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    overflow: hidden;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(39, 39, 39, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 2rem;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    justify-content: center;
+}
+
+.loginform {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.loginform input {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: transparent;
+    outline: #580818;
+    border: .2rem solid #dc143c;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.loginform button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    color: white;
+    /* border-radius: 50%; */
+    background: #f0274f;
+    cursor: pointer;
+    transition: .2s ease-in;
+
+}
+
+button:hover {
+    background: #580818;
+}

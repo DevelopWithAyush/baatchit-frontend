@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:rgb(41, 41, 41) ;
+  text-transform: capitalize;
+font-family: 'Poppins', sans-serif;}

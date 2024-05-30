@@ -1,0 +1,22 @@
+.message{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1rem;
+    display: inline-block;
+    /* clear: both; */
+}
+
+
+.right{
+    float: right;
+    background-color: crimson;
+    color: white;
+    border-radius: 1rem 1rem 0rem 1rem;
+}
+.left{
+    float: left;
+    background-color: white;
+    color: crimson;
+    border-radius: 1rem 1rem 1rem 0rem;
+}
