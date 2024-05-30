@@ -14,7 +14,7 @@ const Chat = () => {
   const [id ,setId] = useState('')
   const [recivedmessage, setRecivedmessage] = useState([])
 
-  const socket = useMemo(() => io("http://localhost:5000/"), [])
+  const socket = useMemo(() => io("https://baatchit-backend.vercel.app/"), [])
 
   const hnadlesendmessage =()=>{
     socket.emit("send",{sendmessage,id})   
